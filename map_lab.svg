@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 210 120">
+  <g data-koatuu="0700000000" id="volynska">
+    <path d="M59.506 12.844v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text x="49.996" y="29.918" style="line-height:6.61458302px" font-size="6.35" transform="translate(-6.994 -8.656)">
+      <tspan x="49.996" y="29.918">Вл</tspan>
+    </text>
+  </g>
+  <g data-koatuu="7400000000" id="chernihivska">
+    <path d="M133.006 12.844v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text transform="matrix(.95148 0 0 1.051 7.012 12.336)" y="8.605" x="115.33" style="line-height:9.52498627px;font-family:sans-serif" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".529">
+      <tspan style="line-height:9.52498627px;font-family:sans-serif" y="8.605" x="115.33">Чг</tspan>
+    </text>
+  </g>
+  <g data-koatuu="5900000000" id="sumska">
+    <path d="M157.5 12.875v12.213l-12.25 6.1L133 25.08l.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="8.953" x="133.733" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="8.953" x="133.733">См</tspan>
+    </text>
+  </g>
+  <g data-koatuu="4600000000" id="lvivska">
+    <path d="M47.25 31.156V43.37L35 49.47 22.75 43.36l.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="27.238" x="23.788" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="27.238" x="23.788">Лв</tspan>
+    </text>
+  </g>
+  <g data-koatuu="5600000000" id="rivnenska">
+    <path d="M71.75 31.164v12.214l-12.25 6.1-12.25-6.108.007-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="27.246" x="48.578" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="27.246" x="48.578">Рв</tspan>
+    </text>
+  </g>
+  <g data-koatuu="1800000000" id="zhytomyrska">
+    <path d="M96.25 31.172v12.213L84 49.485l-12.25-6.107.007-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="27.253" x="71.748" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="27.253" x="71.748">Жт</tspan>
+    </text>
+  </g>
+  <g data-koatuu="3200000000" id="kyivska">
+    <path d="M120.75 31.18v12.213l-12.25 6.1-12.25-6.108.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="27.261" x="97.237" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="27.261" x="97.237">Кв</tspan>
+    </text>
+  </g>
+  <g data-koatuu="5300000000" id="poltavska">
+    <path d="M145.25 31.187V43.4L133 49.5l-12.25-6.107.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="27.269" x="121.525" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="27.269" x="121.525">Пл</tspan>
+    </text>
+  </g>
+  <g data-koatuu="6300000000" id="kharkivska">
+    <path d="M169.745 31.195V43.41l-12.25 6.098-12.25-6.107.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="27.277" x="146.4" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="27.277" x="146.4">Хк</tspan>
+    </text>
+  </g>
+  <g data-koatuu="4400000000" id="luhanska">
+    <path d="M194.24 31.203v12.213l-12.252 6.1-12.25-6.107.007-12.215 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="27.284" x="170.947" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="27.284" x="170.947">Лг</tspan>
+    </text>
+  </g>
+  <g data-koatuu="2100000000" id="zakarpatska">
+    <path d="M35.012 49.6v12.213l-12.252 6.1-12.248-6.108.006-12.214 12.248-6.098z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="45.678" x="11.694" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="45.678" x="11.694">Зк</tspan>
+    </text>
+  </g>
+  <g data-koatuu="2100000000" id="ternopilska">
+    <path d="M59.512 49.607V61.82l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="45.028" x="36.477" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="45.028" x="36.477">Тр</tspan>
+    </text>
+  </g>
+  <g data-koatuu="6800000000" id="khmelnytska">
+    <path d="M84.012 49.615v12.213l-12.252 6.1-12.248-6.108.006-12.213 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="45.696" x="60.372" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="45.696" x="60.372">Хм</tspan>
+    </text>
+  </g>
+  <g data-koatuu="7100000000" id="cherkaska">
+    <path d="M108.512 49.622v12.214l-12.252 6.1-12.248-6.108.006-12.213 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="45.704" x="84.99" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="45.704" x="84.99">Чк</tspan>
+    </text>
+  </g>
+  <g data-koatuu="3500000000" id="kirovogradska">
+    <path d="M133.012 49.63v12.214l-12.252 6.1-12.248-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="45.712" x="109.668" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="45.712" x="109.668">Кг</tspan>
+    </text>
+  </g>
+  <g data-koatuu="1200000000" id="dnipropetrovska">
+    <path d="M157.506 49.638V61.85l-12.25 6.1-12.25-6.106.006-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="45.222" x="133.819" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="45.222" x="133.819">Дн</tspan>
+    </text>
+  </g>
+  <g data-koatuu="1400000000" id="donetska">
+    <path d="M182 49.646V61.86l-12.252 6.098L157.5 61.85l.006-12.212 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="45.23" x="158.332" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="45.23" x="158.332">До</tspan>
+    </text>
+  </g>
+  <g data-koatuu="2600000000" id="ivano-frankivska">
+    <path d="M47.263 68v12.214l-12.25 6.1-12.25-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="63.421" x="24.212" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="63.421" x="24.212">Іф</tspan>
+    </text>
+  </g>
+  <g data-koatuu="7400000000" id="chernihivska">
+    <path d="M71.763 68.008V80.22l-12.25 6.1-12.25-6.106L47.27 68l12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="64.089" x="48.266" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="64.089" x="48.266">Чн</tspan>
+    </text>
+  </g>
+  <g data-koatuu="0500000000" id="vinnytska">
+    <path d="M96.263 68.015V80.23l-12.25 6.098-12.25-6.107.006-12.212 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="64.097" x="72.726" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="64.097" x="72.726">Вн</tspan>
+    </text>
+  </g>
+  <g data-koatuu="4800000000" id="mykolaivska">
+    <path d="M120.763 68.023v12.214l-12.25 6.1-12.25-6.108.006-12.215 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="64.105" x="96.637" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="64.105" x="96.637">Мк</tspan>
+    </text>
+  </g>
+  <g data-koatuu="6500000000" id="khersonska">
+    <path d="M145.263 68.03v12.215l-12.25 6.1-12.25-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="63.452" x="121.888" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="63.452" x="121.888">Хр</tspan>
+    </text>
+  </g>
+  <g data-koatuu="2300000000" id="zaporizka">
+    <path d="M169.757 68.04V80.25l-12.25 6.1-12.25-6.107.006-12.214 12.25-6.098z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="64.117" x="146.465" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="64.117" x="146.465">Зп</tspan>
+    </text>
+  </g>
+  <g data-koatuu="5100000000" id="odeska">
+    <path d="M108.506 86.344v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="82.028" x="84.537" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="82.028" x="84.537">Од</tspan>
+    </text>
+  </g>
+  <g data-koatuu="0100000000" id="ark">
+    <path d="M145.257 92.45v12.214l-12.25 6.1-12.25-6.108.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+    <text y="87.872" x="121.585" style="line-height:14px;font-family:'sans-serif';text-align:start" font-size="6.35" font-family="sans-serif" letter-spacing="0" word-spacing="0" stroke-width=".7" transform="translate(7.012 12.336)">
+      <tspan y="87.872" x="121.585">Кр</tspan>
+    </text>
+  </g>
+</svg>
