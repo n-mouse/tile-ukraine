@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 210 120">
-  <path data-koatuu="0700000000" id="volynska" d="M59.506 12.844v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="7400000000" id="chernihivska" d="M133.006 12.844v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="5900000000" id="sumska" d="M157.5 12.875v12.213l-12.25 6.1L133 25.08l.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="4600000000" id="lvivska" d="M47.25 31.156V43.37L35 49.47 22.75 43.36l.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="5600000000" id="rivnenska" d="M71.75 31.164v12.214l-12.25 6.1-12.25-6.108.007-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="1800000000" id="zhytomyrska" d="M96.25 31.172v12.213L84 49.485l-12.25-6.107.007-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="3200000000" id="kyivska" d="M120.75 31.18v12.213l-12.25 6.1-12.25-6.108.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="5300000000" id="poltavska" d="M145.25 31.187V43.4L133 49.5l-12.25-6.107.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="6300000000" id="kharkivska" d="M169.745 31.195V43.41l-12.25 6.098-12.25-6.107.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="4400000000" id="luhanska" d="M194.24 31.203v12.213l-12.252 6.1-12.25-6.107.007-12.215 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="2100000000" id="zakarpatska" d="M35.012 49.6v12.213l-12.252 6.1-12.248-6.108.006-12.214 12.248-6.098z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="2100000000" id="ternopilska" d="M59.512 49.607V61.82l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="6800000000" id="khmelnytska" d="M84.012 49.615v12.213l-12.252 6.1-12.248-6.108.006-12.213 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="7100000000" id="cherkaska" d="M108.512 49.622v12.214l-12.252 6.1-12.248-6.108.006-12.213 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="3500000000" id="kirovogradska" d="M133.012 49.63v12.214l-12.252 6.1-12.248-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="1200000000" id="dnipropetrovska" d="M157.506 49.638V61.85l-12.25 6.1-12.25-6.106.006-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="1400000000" id="donetska" d="M182 49.646V61.86l-12.252 6.098L157.5 61.85l.006-12.212 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="2600000000" id="ivano-frankivska" d="M47.263 68v12.214l-12.25 6.1-12.25-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="7400000000" id="chernihivska" d="M71.763 68.008V80.22l-12.25 6.1-12.25-6.106L47.27 68l12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="0500000000" id="vinnytska" d="M96.263 68.015V80.23l-12.25 6.098-12.25-6.107.006-12.212 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="4800000000" id="mykolaivska" d="M120.763 68.023v12.214l-12.25 6.1-12.25-6.108.006-12.215 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="6500000000" id="khersonska" d="M145.263 68.03v12.215l-12.25 6.1-12.25-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="2300000000" id="zaporizka" d="M169.757 68.04V80.25l-12.25 6.1-12.25-6.107.006-12.214 12.25-6.098z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="5100000000" id="odeska" d="M108.506 86.344v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
-  <path data-koatuu="0100000000" id="ark" d="M145.257 92.45v12.214l-12.25 6.1-12.25-6.108.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="0700000000" class="volynska" d="M59.506 12.844v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="7400000000" class="chernihivska" d="M133.006 12.844v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="5900000000" class="sumska" d="M157.5 12.875v12.213l-12.25 6.1L133 25.08l.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="4600000000" class="lvivska" d="M47.25 31.156V43.37L35 49.47 22.75 43.36l.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="5600000000" class="rivnenska" d="M71.75 31.164v12.214l-12.25 6.1-12.25-6.108.007-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="1800000000" class="zhytomyrska" d="M96.25 31.172v12.213L84 49.485l-12.25-6.107.007-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="3200000000" class="kyivska" d="M120.75 31.18v12.213l-12.25 6.1-12.25-6.108.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="5300000000" class="poltavska" d="M145.25 31.187V43.4L133 49.5l-12.25-6.107.007-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="6300000000" class="kharkivska" d="M169.745 31.195V43.41l-12.25 6.098-12.25-6.107.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="4400000000" class="luhanska" d="M194.24 31.203v12.213l-12.252 6.1-12.25-6.107.007-12.215 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="2100000000" class="zakarpatska" d="M35.012 49.6v12.213l-12.252 6.1-12.248-6.108.006-12.214 12.248-6.098z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="2100000000" class="ternopilska" d="M59.512 49.607V61.82l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="6800000000" class="khmelnytska" d="M84.012 49.615v12.213l-12.252 6.1-12.248-6.108.006-12.213 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="7100000000" class="cherkaska" d="M108.512 49.622v12.214l-12.252 6.1-12.248-6.108.006-12.213 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="3500000000" class="kirovogradska" d="M133.012 49.63v12.214l-12.252 6.1-12.248-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="1200000000" class="dnipropetrovska" d="M157.506 49.638V61.85l-12.25 6.1-12.25-6.106.006-12.214 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="1400000000" class="donetska" d="M182 49.646V61.86l-12.252 6.098L157.5 61.85l.006-12.212 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="2600000000" class="ivano-frankivska" d="M47.263 68v12.214l-12.25 6.1-12.25-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="7400000000" class="chernihivska" d="M71.763 68.008V80.22l-12.25 6.1-12.25-6.106L47.27 68l12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="0500000000" class="vinnytska" d="M96.263 68.015V80.23l-12.25 6.098-12.25-6.107.006-12.212 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="4800000000" class="mykolaivska" d="M120.763 68.023v12.214l-12.25 6.1-12.25-6.108.006-12.215 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="6500000000" class="khersonska" d="M145.263 68.03v12.215l-12.25 6.1-12.25-6.108.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="2300000000" class="zaporizka" d="M169.757 68.04V80.25l-12.25 6.1-12.25-6.107.006-12.214 12.25-6.098z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="5100000000" class="odeska" d="M108.506 86.344v12.213l-12.252 6.1-12.248-6.107.006-12.214 12.248-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
+  <path data-koatuu="0100000000" class="ark" d="M145.257 92.45v12.214l-12.25 6.1-12.25-6.108.006-12.213 12.25-6.1z" fill="#fff" stroke="#666" stroke-width=".735" stroke-opacity=".5"/>
 </svg>
