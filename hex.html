@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="hexgen.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
+<style>
+  .hexagon {
+    stroke: #000;
+    stroke-width: 0.5px;
+  }
+  text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    stroke: #525760
+  }
+</style>
+</head>
+<body>
+  <svg width="960" height="500"></svg>
+
+  <script>
+
+    'use strict';
+
+    d3.csv("https://cedos.org.ua/data/hex_data.csv", type, function(error, data){
+
+      //var points = [
+        //[20,0],[100,0],[140,0],[180,0],[0,40],
+        //[40,40],[80,40],[120,40],[160,40],[200,40],[240,40],
+        //[0,60],[40,60],[80,60],[120,60],[140,60],[160,60],[200,60],
+        //[20,80],[60,80],[100,80],[120,80],[160,80],[200,80],
+        //[100,120],[140,130]
+     //]
+
+      var svg = d3.select("svg"),
+          margin = {top: 20, right: 20, bottom: 30, left: 40},
+          width = +svg.attr("width") - margin.left - margin.right,
+          height = +svg.attr("height") - margin.top - margin.bottom,
+          g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+      function color(val){
+        if (val > 100000){
+          return '#2b8cbe'
+        } else if (val > 10000) {
+          return '#bdc9e1'
+        } else if(val > 0) {
+          return "#f1eef6"
+        } else {
+          return "#fff"
+        }
+      }
+
+      var hexbin = d3.hexbin()
+          .radius(20)
+          .extent([[0, 0], [width, height]]);
+
+      g.append("g")
+        .attr("class", "hexagon")
+        .selectAll("path")
+        .data(hexbin(data))
+        .enter()
+        .append("g")
+          .classed("hexie", true)
+          .append("path")
+          .attr("d", hexbin.hexagon())
+          .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+          .attr("fill", function(d) { return color(+d[0].value) });
+
+      d3.selectAll(".hexie")
+        .append("text")
+        .text(function(d){ return d[0].label })
+        .attr("x", function(d){ return d.x} )
+        .attr("y", function(d){ return d.y+4} )
+        .style("text-anchor", "middle");
+
+    })
+
+    function type(d) {
+      d[0] = d.x;
+      d[1] = d.y;
+      return d;
+    }
+
+  </script>
+
+</body>
+</html>
