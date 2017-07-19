@@ -17,70 +17,105 @@
 </style>
 </head>
 <body>
-  <svg width="960" height="500"></svg>
+  <div id="hex">
+    <svg></svg>
+  </div>
 
   <script>
 
     'use strict';
 
-    d3.csv("https://cedos.org.ua/data/hex_data.csv", type, function(error, data){
+    function hexChart() {
 
-      //var points = [
-        //[20,0],[100,0],[140,0],[180,0],[0,40],
-        //[40,40],[80,40],[120,40],[160,40],[200,40],[240,40],
-        //[0,60],[40,60],[80,60],[120,60],[140,60],[160,60],[200,60],
-        //[20,80],[60,80],[100,80],[120,80],[160,80],[200,80],
-        //[100,120],[140,130]
-     //]
+      var radius = 20;
 
-      var svg = d3.select("svg"),
-          margin = {top: 20, right: 20, bottom: 30, left: 40},
-          width = +svg.attr("width") - margin.left - margin.right,
-          height = +svg.attr("height") - margin.top - margin.bottom,
-          g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+      var range = ['#74a9cf','#2b8cbe'];
 
-      function color(val){
-        if (val > 100000){
-          return '#2b8cbe'
-        } else if (val > 10000) {
-          return '#bdc9e1'
-        } else if(val > 0) {
-          return "#f1eef6"
-        } else {
-          return "#fff"
-        }
+      var domain = [d3.median(data)];
+
+      function chart(selection) {
+
+        selection.each(function(data) {
+
+          var width = radius*14;
+          var height = radius*9;
+          var margin = {top: radius, right: radius, bottom: radius, left: radius};
+          var svg = d3.select(this).select("svg").attr("width",width).attr("height",height);
+
+          var g = svg.append("g")
+             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+          var points = [
+            [radius,0,"Вл"],[radius*5,0,"Київ"],[radius*7,0,"Чг"],[radius*9,0,"См"],[0,radius*2,"Лв"],
+            [radius*2,radius*2,"Рв"],[radius*4,radius*2,"Жт"],[radius*6,radius*2,"Кв"],[radius*8,radius*2,"Пл"],[radius*10,radius*2,"Хк"],[radius*12,radius*2,"Лг"],
+            [0,radius*3,"Зк"],[radius*2,radius*3,"Тр"],[radius*4,radius*3,"Хм"],[radius*6,radius*3,"Чк"],[radius*7,radius*3,"Кг"],[radius*8,radius*3,"Дн"],[radius*10,radius*3,"До"],
+            [radius,radius*4,"Іф"],[radius*3,radius*4,"Чн"],[radius*5,radius*4,"Вн"],[radius*6,radius*4,"Мк"],[radius*8,radius*4,"Хр"],[radius*10,radius*4,"Зп"],
+            [radius*5,radius*6,"Од"],[radius*7,radius*6+radius/2,"Кр"]
+          ]
+
+          for (var i=0; i < points.length; i++){
+           points[i].push(data[i]);
+          }
+
+          var color = d3.scaleThreshold()
+          .domain(domain)
+          .range(range);
+
+          var hexbin = d3.hexbin()
+             .radius(radius)
+             .extent([[0, 0], [width, height]]);
+
+          g.append("g")
+           .attr("class", "hexagon")
+           .selectAll("path")
+           .data(hexbin(points))
+           .enter()
+           .append("g")
+             .classed("hexie", true)
+             .append("path")
+             .attr("d", hexbin.hexagon())
+             .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+             .attr("fill", function(d) { return color(+d[0][3]) });
+
+          d3.selectAll(".hexie")
+           .append("text")
+           .text(function(d){ return d[0][2] })
+           .attr("x", function(d){ return d.x} )
+           .attr("y", function(d){ return d.y+4} )
+           .style("text-anchor", "middle");
+
+        });
       }
 
-      var hexbin = d3.hexbin()
-          .radius(20)
-          .extent([[0, 0], [width, height]]);
+      chart.range = function(_) {
+        if (!arguments.length) return range;
+        range = _;
+        return chart;
+      };
 
-      g.append("g")
-        .attr("class", "hexagon")
-        .selectAll("path")
-        .data(hexbin(data))
-        .enter()
-        .append("g")
-          .classed("hexie", true)
-          .append("path")
-          .attr("d", hexbin.hexagon())
-          .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-          .attr("fill", function(d) { return color(+d[0].value) });
+      chart.domain = function(_) {
+        if (!arguments.length) return domain;
+        domain = _;
+        return chart;
+      };
 
-      d3.selectAll(".hexie")
-        .append("text")
-        .text(function(d){ return d[0].label })
-        .attr("x", function(d){ return d.x} )
-        .attr("y", function(d){ return d.y+4} )
-        .style("text-anchor", "middle");
+      chart.radius = function(_) {
+        if (!arguments.length) return radius;
+        radius = _;
+        return chart;
+      };
 
-    })
-
-    function type(d) {
-      d[0] = d.x;
-      d[1] = d.y;
-      return d;
+      return chart;
     }
+
+
+     var data = [4965,169022,8903,14777,12329,3190,12573,60233,28513,197063,293155,3530,2485,6541,13236,9235,75132,529149,5280,3599,14621,8106,17117,53904,44716,0]
+
+     var chart = hexChart().domain([0, 10000, 100000]).range(["#ece7f2","#f1eef6",'#bdc9e1','#2b8cbe']).radius(30);
+
+     d3.select("#hex")
+      .datum(data)
+      .call(chart);
 
   </script>
 

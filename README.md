@@ -2,4 +2,7 @@
 
 ![](https://cedos.org.ua/data/screenshot.png) 
 
-Work in progress. На разі щоб зробити свою карту, потрібно замінити колонку value у файлі hex_data і, відповідно, функцію color на підходящу. Далі буде.
+Work in progress. 
+Reusable chart producing hexagon grid for Ukraine.
+Radius and domain/range for threshhold color scale are configurable. 
+Default radius is 20, default domain and range are ridiculous.
